@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg ">
+        <div class="max-w-8xl mx-auto px-4">
+            
+                <div class="flex space-x-5">
+                    <a href="#" class="flex items-center py-4 px-2"> <img src="image/cap.png" alt="logo" class="h-12 w-12 mr-2 transform hover:scale-110 transition duration-500 ease-in-out"> <span class="font-semibold text-gray-500 text-lg">DamilolaTailwind</span></a>
+                    <div class="justify-center  md:flex items-center  ">
+                        <a href="home.html" class="py-4 px-2 text-blue-500 border-b-4 border-blue-500 font-semibold">Home</a>
+                        <a href="about.html" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">About</a>
+                        <a href="service.html" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Services</a>
+                        <a href="contact.html" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Contacts</a>
+                    </div>
+                </div>
+                
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <s class="w-6 h-6 text-gray-500 hover:text-blue-500" x-show="!showMenu" fill="none" stroke-linecap="rounded" stroke-width="2" viewBox="0 0 24 24" stroke="curentColor">
+                           <path d="M4 6h 16h M4 12h16M7 6h 7"></path>
+                        </s>
+                    </button>
+                </div>
+            
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li><a href="#" class="block text-sm px-2 py-4 text-white bg-blue-500"> Home</a></li>
+                <li><a href="#" class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300">About</a></li>
+                <li><a href="#" class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300"> Services</a></li>
+                <li><a href="#" class="block text-sm px-2 py-4py-4 hover:bg-blue-500 transition duration-300"> Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="bg-gray-900 text-white p-6">
+        <div class="container mx-auto text-center ">
+            <h1 class="text-4xl font-bold">Full-Stack Developer Services</h1>
+            <p class="mt-2 text-lg">Providing robust and scalable solution from frontend to backend.</p>
+        </div>
+    </header>
+    <section class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center text-gray-700 mb-12 ">What I can Do for You</h2>
+        <div class="grid grid-flow-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="mb-4">
+                    <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http//www.w3org/2000/svg">
+                        <path stroke-lnecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a9 9 0 11-9 9h2.5a6.5 6.5 0 1012 6.5v-2A9 9 0 0112 4.354z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Frontend Development</h3>
+                <p class="text-gray-600">Creating responsive and visual stunning interfaces using modern frameworks like ReactJs, Vue, or Angular.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="mb-4">
+                    <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3org/2000/svg">
+                        <path stroke-linecap="round" strokelinejoin="round" stroke-width="2" d="M16 7h.01M6 7h.01M12 7h.01M3 3h18M4 21h16M5 13h14M9 10v2a1 1 0 01-1 1h-1m10 0a1 1 0 01-1 1v-2m-2 5h4m-10 0h4"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Backend Development</h3>
+                <p class="text-gray-600">Building scalable and efficient server-side applications using Node.js, Javascript.</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="mb-4">
+                    <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3org/2000/svg">
+                        <path stroke-linecap="round" strokelinejoin="round" stroke-width="2" d="M12 20.354a9 9 0 100-16.708 9 9 0 000 16.708z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">API Development & Integration</h3>
+                <p class="text-gray-600">Designing RESTful APIs for your application, enabling smooth integration with external services.</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="mb-4">
+                    <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3org/2000/svg">
+                        <path stroke-linecap="round" strokelinejoin="round" stroke-width="2" d="M12 6.354a9 9 0 100 11.292 9 9 0 000-11.292zM4.5 15h15M7 12h10m-4 3h.01"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Database Design & Management</h3>
+                <p class="text-gray-600">Structuring efficient databases using SQL and NoSQL solution like MySQL, PostgreSQL, and MongoDB.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="mb-4">
+                    <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3org/2000/svg">
+                        <path stroke-linecap="round" strokelinejoin="round" stroke-width="2" d="M5 13h14l-1.4 4.2a4 4 0 01-2.6 2.8 5.04 5.04 0 01-7.4-4 4 4 0 00-5.4.21-.4 1.2a3.97 3.97 0 014 5.2 5 5 0 01-3 7"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">DevOps & Cloud Deployment</h3>
+                <p class="text-gray-600">Setting up continuous integration and deployment pipelines using tools like Dockers,Kubernetes, and AWS.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="mb-4">
+                    <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3org/2000/svg">
+                        <path stroke-linecap="round" strokelinejoin="round" stroke-width="2" d="M4 3v1818-6 8 6V3H4z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">UI/UX Design</h3>
+                <p class="text-gray-600">Creating user-friendly and aesthetically pleasing designs to enhance user experience.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-800 text-white p-6 text-center ">
+   
+        <p class="mb-2">&copy: 2024 Oluwadamilola Daniel Fabiyi. All rights reserved</p>
+            <p>Find me on <a href="#" class="text-blue-400 hover:text-blue-300">GitHub</a>  |  <a href="#" class="text-blue-400 hover:text-blue-300">LinkedIn</a> | <a href="#" class="text-blue-400 hover:text-blue-300">X</a>  |  <a href="#" class="text-blue-400 hover:text-blue-300">facebook</a>  |  <a href="#" class="text-blue-400 hover:text-blue-300">Instagram</a>
+            </p>
+    </footer>  
+    </body>
+    </html>
